@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<!--XML que contiene la información de 5 estudiantes-->
+ 
+    <students>
+        <student pais="España">
+            <name>Lionel</name>
+            <surname>Messi</surname>
+            <email>lionelmessi@gmail.com</email>
+            <dni>12345672L</dni>
+        </student>
+        <student pais="España">
+            <name>Pedro</name>
+            <surname>Picapiedra</surname>
+            <email>pedropicapiedra@gmail.com<</email>
+            <dni>12345675P</dni>
+        </student>
+        <student pais="España">
+            <name>Kylian</name>
+            <surname>Mbappe</surname>
+            <email>kylianmbappe@gmail.com<</email>
+            <dni>12345677K</dni>
+        </student>
+        <student pais="España">
+            <name>Neymar</name>
+            <surname>Junior</surname>
+            <email>neymarjunior@gmail.com<</email>
+            <dni>12345679N</dni>
+        </student>
+        <student pais="España">
+            <name>Juan</name>
+            <surname>Mata</surname>
+            <email>juanmata@gmail.com<</email>
+            <dni>12345678J</dni>
+        </student>
+    </students>
