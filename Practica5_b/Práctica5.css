@@ -1,3 +1,4 @@
+/* En este CSS le hemos pedido que junte todos los bordes de la tabla para que no haya espacios con el margin collapse, que el título esté en azul y con un font size de 20 píxeles, con el padding le hemos pedido que haya cierto margen dentro de la tabla y que en el header de la tabla el fondo sea gris  */
 table, td, th {
     border: 1px solid;
   }
