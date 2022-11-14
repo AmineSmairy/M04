@@ -1,0 +1,26 @@
+table, td, th {
+    border: 1px solid;
+  }
+
+table {
+    border-collapse: collapse;
+    margin:auto;
+    margin-top: 15%;
+  }
+
+caption {
+    font-size: 20px;
+    color: blue;
+  }
+
+td, th, caption {
+    padding: 6px;
+  }
+
+  th {
+    background-color: rgba(120, 110, 110, 0.692);
+  }
+  
+
+
+  
