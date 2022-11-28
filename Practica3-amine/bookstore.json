@@ -1,0 +1,11 @@
+{
+    "bookstore":
+    {
+            "book": {
+                "title": "Little Mermaid",
+                "publisher": "C. A. Reitzel",
+                "cover": "hardcover",
+                "price": 20
+                }
+    }
+}
