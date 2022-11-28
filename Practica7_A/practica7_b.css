@@ -1,11 +1,12 @@
+/* Hecho por Amine Smairy */
 #blau {
     width: 160px;
     height: 120px;
     margin-left: 20px;
     margin-top: 40px;
     background-color: blue;
-    position: relative;
-    z-index: 1;
+    position: relative; /* Hemos utilizado position relative para colocar el cuadrado en la posición por defecto de la página*/
+    z-index: 1; /*lo hemos utilizado para ordenar los cuadrados superpuestos entre sí*/ 
   }
 
 #groc{
@@ -15,8 +16,7 @@
     margin-top: 20px;
     margin-bottom: 160px;
     background-color: yellow;
-    position: absolute;
-   
+    position: absolute; /* Hemos utilizado position absolute para colocar el elemento en este caso un cuadrado en el punto de inicio (arriba izquierda) del cuadrado padre en este caso el verde es el padre del amarillo  */
 }
 
 #vermell{
@@ -25,7 +25,7 @@
     margin-left: 100px;
     margin-top: -20px;
     background-color: red;
-    position: absolute;
+    position: relative;
 }
 
 #verd{
