@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* En aquest document CSS donem format a la taula creada a l'HTML*/
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10%;
+}
+
+td, th, caption {
+    border: 2px solid;
+    padding: 10px;
+}
+caption {
+    background-color: lightgreen;
+}
+th {
+    background-color: blueviolet;
+}
+td {
+    background-color: lightgoldenrodyellow;
+}
+
+body {
+    font-family: Special Elite, cursive;
+    background-image: url(https://previews.123rf.com/images/stockbroker/stockbroker1709/stockbroker170901836/86206739-vista-trasera-de-la-familia-sentada-en-el-sof%C3%A1-en-el-sal%C3%B3n-viendo-televisi%C3%B3n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
