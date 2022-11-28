@@ -1,0 +1,46 @@
+/* Fet per en Jordi Manyà */
+
+.groc {
+    height: 120px;
+    width: 160px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color:yellow;
+    position: relative;         
+    /* Utiltizo el position: relative per posicionar el div groc relativament a la seva posició normal sense que afecti als altres divs  */
+    border: 1px solid green;
+    z-index: 1;                
+    /* Amb el z-index amb un valor 1, fem que els divs següents es posicionin per sobre seu*/
+}
+
+.blau {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    position: absolute;     /* En el div petit utilitzo el position: absolute perque es posicioni acord al seu div parent */
+    border: 1px solid green;
+}
+
+.verd {
+    height: 120px;
+    width: 160px;
+    margin-top: -20px;
+    margin-left: 100px;
+    background-color: lightgreen;
+    position: relative;
+    border: 1px solid green;
+}
+
+.vermell {
+    height: 40px;
+    width: 40px;
+    top: 60px;
+    left: 100px;
+    right: 20px;
+    bottom: 20px;
+    background-color: crimson;
+    position: absolute;
+    border: 1px solid green;
+}
