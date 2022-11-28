@@ -1,0 +1,38 @@
+#blau {
+    width: 160px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+  }
+
+#groc{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+    background-color: yellow;
+    position: absolute;
+   
+}
+
+#vermell{
+    width: 160px;
+    height: 120px;
+    margin-left: 100px;
+    margin-top: -20px;
+    background-color: red;
+    position: absolute;
+}
+
+#verd{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: green;
+    position: absolute;
+}
